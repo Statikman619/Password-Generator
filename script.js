@@ -1,8 +1,9 @@
+//Special character options for what you choose.
 var passwordlengthoption = "Must be 8 characters no more than 128"
 var uppercaseoption = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var lowercaseoption = "abcdefghijklmnopqrstuvwxyz"
 var numbersoption = "0123456789"
-var specialcharactersoption = "~!@#$%^&*()_+="
+var specialcharactersoption = "~!@#$%^&*()-_+="
 
 
 // Assignment Code

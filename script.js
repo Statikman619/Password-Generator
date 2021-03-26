@@ -24,6 +24,7 @@ function randomize(str) {
   var char = str[index]
   return char
 }
+//Prompt that asks how many characters and certain lengths.
 function generatePassword() {
   var passwordlength = window.prompt("How many characters do you want your password to be?")
   passwordlength = parseInt(passwordlength)

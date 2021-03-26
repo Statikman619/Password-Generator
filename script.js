@@ -30,11 +30,12 @@ function generatePassword() {
     window.alert("Password must be between 8 and 128 characters")
     return;
   }
+  // Prompts that ask what characters you would like in your password.
   var lowercase = window.confirm("Do you want lower case letters?")
   var uppercase = window.confirm("Do you want upper case letters?")
   var numbers = window.confirm("Do you want your password to contain numbers?")
   var specialcharacters = window.confirm("Do you want special characters?")
-// is user clicks 'cancel' it will give you false if you put confirm it will give you 'true'
+// is user clicks 'cancel' it will give you 'false' if you put 'ok' it will give you 'true'
   if (!lowercase && !uppercase && !numbers && !specialcharacters){
     return "false"
   }

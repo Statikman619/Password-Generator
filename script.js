@@ -55,7 +55,7 @@ function generatePassword() {
     finalstring= finalstring + specialcharactersoption
   }
   var password = ""
-  for(i=0; i< parsInt(passwordlength); i++){
+  for(i=0; i< parseInt(passwordlength); i++){
     var single= randomize(finalstring)
     password= password + single
   }

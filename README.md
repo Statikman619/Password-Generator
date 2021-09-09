@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Password Generator
 
 This project doesn't require a link just right click on your code and open it in your default browser.
